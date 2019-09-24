@@ -1,0 +1,191 @@
+
+
+/*                            Start of globals parameters                       */
+
+*{
+    margin:0;
+    padding:0;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,.54);
+}
+
+html{
+    height:100vh;
+}
+
+body{
+    height: 100%;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    height:100%;
+}
+
+li a{
+    text-decoration: none;
+}
+
+
+/*                             End of globals parameters                       */
+/*                             Start of Navbar's parameters                         */
+
+#mainNavbar{
+    height:40px;
+    color:rgba(0,0,0,0.87);   
+}
+
+#mainNavbar ul li{
+    margin-right: 15px;
+}
+
+#mainNavbar ul{
+    justify-content: flex-end;
+    margin: 10px 10px 0 0;
+
+}
+.navItems:hover{
+    text-decoration:underline ;
+}
+.connexionButton{
+    display:inline-block;
+    padding: 6px 11px 6px 11px;
+    color: #fff;
+    cursor: default;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: #4285f4;
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4387fd,endColorstr=#4683ea,GradientType=0);
+}
+#menu{
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -135px -42px;
+    opacity: .55;
+    cursor: pointer;
+}
+#menu:hover{
+    opacity:1;
+}
+
+
+/*                             End of Navbar's parameters                      */
+/*                             Start of Footer's parameters                      */
+
+#rightNavFooter li{
+    padding-right: 30px;
+}
+
+#rightNavFooter,#leftNavFooter{
+    width: 50%;
+}
+
+#rightNavFooter{
+    justify-content:flex-end;  
+}
+
+footer{
+    background-color:#f2f2f2;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer nav,footer p{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+footer p,#leftNavFooter li{
+    padding-left: 30px;
+}
+
+footer p{
+    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+}
+
+/*                             End of Footer's parameters                      */
+/*                             Start of Section's parameters                      */
+
+#logoGoogle{
+    margin:auto;
+    display: block;
+    padding-top: 109px;
+}
+
+#logoLoupe{
+    margin: auto;
+    padding-left: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#customBar{
+background: #fff;
+display: flex;
+border-radius: 8px;
+border: 1px solid #dfe1e5;
+border-radius: 24px;
+z-index: 3;
+height: 44px;
+margin: 30px auto 20px auto;
+width: 582px;
+}
+
+#customBar:hover{
+    box-shadow:  0px 1px 3px #dfe1e5;
+}
+#customButton{
+    margin: auto;
+}
+
+.searchBar{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    padding-left: 15px;
+    width: 100%;
+}
+
+
+.searchButton{
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -moz-border-radius: 2px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 54px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
+.searchButton:hover{
+    border: 1px solid rgb(197, 197, 197);
+    color:rgb(0, 0, 0);
+
+}
+
+/*                             End of Section's parameters                      */
+
